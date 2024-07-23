@@ -1,7 +1,8 @@
 .navbar {
     margin: auto;
  text-align: center;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ position:fixed;
+ display: block;
 }
 
 .navbar button:hover {
@@ -11,7 +12,11 @@
 
 button {
     background-color: blanchedalmond;
-    border-radius: 50px;
+    border-radius: 30px;
+    padding: 5px;
+    block-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:cadetblue
 }
 
 #CharWed {
