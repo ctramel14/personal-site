@@ -1,0 +1,47 @@
+.navbar {
+    margin: auto;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover {
+    background-color:bisque;
+    color:rgb(194, 150, 4);
+  }
+
+#CharWed {
+    padding: inherit;
+    margin: auto;
+    width: 300px;
+    height: 450px;
+    display: block;
+}
+
+#Curse {
+    padding: inherit;
+    margin: auto;
+    width: 500px;
+    display: block;
+}
+
+h1 {
+    padding: 5px;
+    margin: auto;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:rgb(194, 150, 4);
+ font-size: 36pt;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-family:fantasy;
+    color:rgb(194, 150, 4);
+    font-weight: thin;
+}
+
+body {
+    background-color: rgb(171, 216, 216);
+}
