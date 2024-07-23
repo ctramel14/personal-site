@@ -1,93 +1,98 @@
 .navbar {
-    margin: auto;
- text-align: center;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  display: block;
 }
 
 .navbar button:hover {
-    background-color:bisque;
-    color:rgb(194, 150, 4);
-  }
+  background-color: bisque;
+  color: rgb(194, 150, 4);
+}
 
 button {
-    background-color: blanchedalmond;
-    border-radius: 50px;
+  background-color: blanchedalmond;
+  border-radius: 30px;
+  padding: 5px;
+  block-size: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: cadetblue;
 }
 
 #CharWed {
-    padding: inherit;
-    margin: auto;
-    width: 300px;
-    height: 450px;
-    display: block;
-    border-radius: 10px;
+  padding: inherit;
+  margin: auto;
+  width: 300px;
+  height: 450px;
+  display: block;
+  border-radius: 10px;
 }
 
 #Curse {
-    padding: inherit;
-    margin: auto;
-    width: 500px;
-    display: block;
-    border-radius: 10px;
+  padding: inherit;
+  margin: auto;
+  width: 500px;
+  display: block;
+  border-radius: 10px;
 }
 
 #Block2 {
-    padding: inherit;
-    margin: auto;
-    width: 600px;
-    display: block;
-    border-radius: 10px;
+  padding: inherit;
+  margin: auto;
+  width: 600px;
+  display: block;
+  border-radius: 10px;
 }
 
 #Block3 {
-    padding: inherit;
-    margin: auto;
-    width: 600px;
-    display: block;
-    border-radius: 10px;
+  padding: inherit;
+  margin: auto;
+  width: 600px;
+  display: block;
+  border-radius: 10px;
 }
 
 #Block4 {
-    padding: inherit;
-    margin: auto;
-    width: 600px;
-    display: block;
-    border-radius: 10px;
+  padding: inherit;
+  margin: auto;
+  width: 600px;
+  display: block;
+  border-radius: 10px;
 }
 
 h1 {
-    padding: 5px;
-    margin: auto;
- text-align: center;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- color:rgb(194, 150, 4);
- font-size: 36pt;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(194, 150, 4);
+  font-size: 36pt;
 }
 
 h2 {
-    margin: auto;
- text-align: center;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- color:rgb(194, 150, 4);
- font-size: 18pt;
- font-style: italic;
+  margin: auto;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(194, 150, 4);
+  font-size: 18pt;
+  font-style: italic;
 }
 
 p {
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    font-family:fantasy;
-    color:rgb(194, 150, 4);
-    font-weight: thin;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-family: fantasy;
+  color: rgb(194, 150, 4);
+  font-weight: thin;
 }
 
 footer {
-    margin: auto;
-    text-align: center;
-    padding-top: 15px;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
 }
 
 body {
-    background-color: rgb(171, 216, 216);
+  background-color: rgb(171, 216, 216);
 }
