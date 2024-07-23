@@ -24,6 +24,27 @@
     display: block;
 }
 
+#Block2 {
+    padding: inherit;
+    margin: auto;
+    width: 600px;
+    display: block;
+}
+
+#Block3 {
+    padding: inherit;
+    margin: auto;
+    width: 600px;
+    display: block;
+}
+
+#Block4 {
+    padding: inherit;
+    margin: auto;
+    width: 600px;
+    display: block;
+}
+
 h1 {
     padding: 5px;
     margin: auto;
@@ -31,6 +52,15 @@ h1 {
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  color:rgb(194, 150, 4);
  font-size: 36pt;
+}
+
+h2 {
+    margin: auto;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:rgb(194, 150, 4);
+ font-size: 18pt;
+ font-style: italic;
 }
 
 p {
