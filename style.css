@@ -64,7 +64,20 @@ button {
   border-top-right-radius: 0px;
 }
 
-.grid-container > div {
+.grid-container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.grid-container2 > div {
   background-color: #fefae0;
   text-align: center;
   padding: 0px 0;
@@ -72,8 +85,9 @@ button {
 }
 
 .block1 {
+  margin: auto;
   width: 1000px;
-  display:inline-block;
+  display: inline-block;
   border-radius: 30px;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -82,7 +96,6 @@ button {
 }
 
 #inner-block {
-  
   display: flex;
   width: 100%;
   font-size: 20pt;
@@ -91,7 +104,7 @@ button {
 .block2 {
   margin: auto;
   width: 980px;
-  display:inline-block;
+  display: inline-block;
   border-radius: 30px;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -100,7 +113,6 @@ button {
 }
 
 #inner-block2 {
-  
   display: flex;
   width: 100%;
   font-size: 20pt;
@@ -108,8 +120,8 @@ button {
 
 .block3 {
   margin: auto;
-  width: 1100px;
-  display:inline-block;
+  width: 980px;
+  display: inline-block;
   border-radius: 10px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -118,7 +130,6 @@ button {
 }
 
 #inner-block3 {
-  
   display: flex;
   width: 100%;
   font-size: 20pt;
@@ -126,8 +137,8 @@ button {
 
 .block4 {
   margin: auto;
-  width: 1000px;
-  display:inline-block;
+  width: 980px;
+  display: inline-block;
   border-radius: 10px;
   grid-column-start: 2;
   grid-column-end: 4;
@@ -136,7 +147,6 @@ button {
 }
 
 #inner-block4 {
-  
   display: flex;
   width: 100%;
   font-size: 20pt;
@@ -212,9 +222,9 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   background-color: aliceblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18pt;
   text-align: center;
   border-radius: 5px;
@@ -223,7 +233,7 @@ form {
 }
 
 #fname {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   border-radius: 10px;
   width: 10%;
@@ -231,15 +241,15 @@ form {
 }
 
 #email {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   border-radius: 10px;
   width: 10%;
   margin: auto;
 }
 
-.message {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#form {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   border-radius: 10px;
   width: 50%;
@@ -247,9 +257,8 @@ form {
   height: 100px;
 }
 
-
 #submit {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   border-radius: 10px;
   width: 10%;
@@ -264,36 +273,36 @@ img {
 }
 
 @media (max-width: 321px) {
-  .grid-container {
+  .grid-container2 {
     margin-top: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     block-size: 10%;
   }
-.navbar {
-  margin-top: 100px !important;
-}
-#Curse {
-  padding: inherit;
-  margin: auto;
-  width: 100%;
-  display: block;
-  border-radius: 10px;
-}
-img {
-  width: 25%;
-}
-#fname {
-  width: 100%;
-}
-#email {
-  width: 100%;
-}
-.message {
-  width: 160%;
-}
-#submit {
-  width: 80%;
-}
+  .navbar {
+    margin-top: 100px !important;
+  }
+  #Curse {
+    padding: inherit;
+    margin: auto;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  img {
+    width: 25%;
+  }
+  #fname {
+    width: 100%;
+  }
+  #email {
+    width: 100%;
+  }
+  .message {
+    width: 160%;
+  }
+  #submit {
+    width: 80%;
+  }
 }
