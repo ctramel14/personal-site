@@ -1,3 +1,4 @@
+/* nav */
 .navbar {
   margin: auto;
   text-align: center;
@@ -50,6 +51,8 @@ button {
   display: block;
   border-radius: 10px;
 }
+
+/* blocks and grids */
 
 .grid-container {
   display: grid;
@@ -273,6 +276,7 @@ img {
   width: 5%;
 }
 
+/* Mobile */
 @media (max-width: 321px) {
   .grid-container2 {
     margin-top: 100px;
@@ -284,13 +288,25 @@ img {
   .navbar {
     margin-top: 100px !important;
   }
+
+  #CharWed {
+    margin-top: 90px;
+    width: 98%;
+  }
+
   #Curse {
     padding: inherit;
     margin: auto;
+    margin-top: 90px;
     width: 100%;
     display: block;
     border-radius: 10px;
   }
+
+  form {
+    margin-top: 90px;
+  }
+
   img {
     width: 25%;
   }
@@ -306,4 +322,14 @@ img {
   #submit {
     width: 80%;
   }
+  .submit-foot {
+    margin-top: 200px;
+  }
+  #go-back {
+    margin-top: 200px;
+    block-size: 100px;
+    padding: 10px;
+    font-size: 20pt;
+    font-style: bold;
+  }  
 }
